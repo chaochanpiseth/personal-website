@@ -1,12 +1,12 @@
 import { Nav } from "@/components/nav";
-import { About as AboutSection } from "@/components/sections/about";
+import { Works } from "@/components/sections/works";
 
-export default function AboutPage() {
+export default function ProjectsPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Nav />
       <main className="pt-20">
-        <AboutSection />
+        <Works />
       </main>
     </div>
   );
