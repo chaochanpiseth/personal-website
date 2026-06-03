@@ -66,7 +66,7 @@ export function Hero() {
           className="flex items-center justify-center gap-3 mb-4"
         >
           <div className="h-px w-10 bg-primary/50" />
-          <span className="text-sm font-semibold tracking-widest uppercase text-primary">Cambodia</span>
+          <span className="text-sm font-semibold tracking-widest uppercase text-primary">My Personal</span>
           <div className="h-px w-10 bg-primary/50" />
         </motion.div>
 
@@ -80,46 +80,8 @@ export function Hero() {
           <span className="text-primary">Piseth</span>
         </motion.h1>
 
-        <motion.p
-          className="text-xl md:text-2xl font-semibold text-muted-foreground mb-6"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-        >
-          Web Developer &amp; Software Engineer
-        </motion.p>
-
-        <motion.p
-          className="text-base md:text-lg text-muted-foreground max-w-xl mx-auto leading-relaxed mb-10"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.8 }}
-        >
-          Building beautiful, fast, and functional web experiences. Passionate about clean code, cute designs, and creating things people love to use.
-        </motion.p>
-
         <motion.div
-          className="flex flex-wrap items-center justify-center gap-4"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1 }}
-        >
-          <button
-            onClick={() => document.getElementById('works')?.scrollIntoView({ behavior: 'smooth' })}
-            className="px-8 py-3 bg-primary text-primary-foreground rounded-full font-semibold hover:opacity-90 active:scale-95 transition-all duration-200 shadow-lg"
-          >
-            View Projects
-          </button>
-          <button
-            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-            className="px-8 py-3 border-2 border-primary text-primary rounded-full font-semibold hover:bg-primary hover:text-primary-foreground transition-all duration-200"
-          >
-            Get in Touch
-          </button>
-        </motion.div>
-
-        <motion.div
-          className="absolute bottom-8 left-1/2 -translate-x-1/2"
+          className="mt-10 flex justify-center"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1.4 }}

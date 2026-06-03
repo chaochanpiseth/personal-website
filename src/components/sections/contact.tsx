@@ -88,14 +88,11 @@ export function Contact() {
         >
           <div className="flex items-center justify-center gap-4 mb-4">
             <div className="h-px w-10 bg-primary" />
-            <span className="text-sm font-bold tracking-widest uppercase text-primary">Let's Connect</span>
+            <span className="text-sm font-bold tracking-widest uppercase text-primary">Social Media</span>
             <div className="h-px w-10 bg-primary" />
           </div>
-          <h2 className="font-serif text-4xl md:text-6xl font-bold mb-6">
-            Say <span className="text-primary">Hello!</span>
-          </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            I'm always open to new projects, collaborations, or just a friendly chat. Find me on any of these platforms!
+            Thank you for visiting my profile. Connect with me on social media.
           </p>
         </motion.div>
 
@@ -143,7 +140,7 @@ export function Contact() {
         >
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-primary/10 border border-primary/20 rounded-full text-primary font-semibold text-sm">
             <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-            Available for freelance &amp; collaborations
+            Uptime Protected 24/7
           </div>
         </motion.div>
       </div>

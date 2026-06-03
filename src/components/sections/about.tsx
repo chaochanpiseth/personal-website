@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const stats = [
   { value: '5+', label: 'Years Coding' },
   { value: '7', label: 'Languages' },
-  { value: '20+', label: 'Projects Built' },
+  { value: '10+', label: 'Projects Built' },
 ];
 
 export function About() {
@@ -26,33 +26,7 @@ export function About() {
           <span className="text-sm font-bold tracking-widest uppercase text-primary">About Me</span>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.8, ease: 'easeOut' }}
-            className="relative flex justify-center"
-          >
-            <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-br from-primary/20 via-secondary/20 to-primary/10 rounded-3xl blur-xl" />
-              <div className="relative w-72 h-72 md:w-80 md:h-80 rounded-3xl overflow-hidden border-4 border-primary/30 shadow-2xl">
-                <img
-                  src="/profile.jpeg"
-                  alt="Chaochan Piseth"
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                />
-              </div>
-              <div className="absolute -bottom-4 -right-4 bg-background border-2 border-primary/20 rounded-2xl px-5 py-4 shadow-lg">
-                <div className="text-3xl font-bold text-primary font-serif">KH</div>
-                <div className="text-xs text-muted-foreground font-semibold tracking-wider uppercase">Cambodia</div>
-              </div>
-              <div className="absolute -top-3 -left-3 w-12 h-12 bg-primary rounded-2xl flex items-center justify-center text-2xl shadow-lg">
-                🐾
-              </div>
-            </div>
-          </motion.div>
-
+        <div className="max-w-3xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -64,13 +38,13 @@ export function About() {
             </h2>
             <div className="space-y-4 text-base text-muted-foreground leading-relaxed mb-10">
               <p>
-                I'm a passionate <strong className="text-foreground">Web Developer and Software Engineer</strong> from the beautiful Kingdom of Cambodia. I love turning ideas into reality through clean, efficient, and beautifully crafted code.
+                I am a passionate <strong className="text-foreground">Web Developer and Software Engineer</strong> from Cambodia with expertise in designing, developing, and maintaining scalable, high-performance web applications and software solutions. With a strong foundation in software engineering principles, I specialize in building secure, efficient, and user-centric systems that deliver exceptional performance and reliability.
               </p>
               <p>
-                Whether it's building interactive frontends with HTML, CSS &amp; JavaScript, crafting server-side logic with PHP &amp; Python, or managing databases with MySQL — I enjoy every layer of the stack.
+                My technical expertise spans across frontend development with HTML, CSS, and JavaScript, backend development with PHP and Python, and database design and optimization using MySQL. I am committed to writing clean, maintainable code and implementing industry best practices to create solutions that meet both technical and business requirements.
               </p>
               <p>
-                I also have a unique background in game server scripting with <strong className="text-foreground">PAWN</strong>, which gave me a deep appreciation for performance and low-level logic. When I'm not coding, you'll find me exploring new tech, designing cute UIs, and vibing on TikTok.
+                In addition to web development, I serve as a developer for <strong className="text-foreground">SABAY COMMUNITY</strong>, where I contribute to the development and maintenance of Pawn-based game server systems. My responsibilities include designing server-side features, optimizing performance, maintaining source code architecture, and delivering engaging gameplay experiences for the community.
               </p>
             </div>
 
