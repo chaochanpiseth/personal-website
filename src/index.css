@@ -204,6 +204,14 @@
 .paw-float-2 { animation: float-paw 5.5s ease-in-out infinite 1s; }
 .paw-float-3 { animation: float-paw 3.8s ease-in-out infinite 2s; }
 
+/* Cute background elements floating */
+@keyframes cute-float {
+  0%   { transform: translateY(0px) rotate(-3deg) scale(1); }
+  33%  { transform: translateY(-12px) rotate(2deg) scale(1.04); }
+  66%  { transform: translateY(-6px) rotate(-1deg) scale(0.97); }
+  100% { transform: translateY(0px) rotate(-3deg) scale(1); }
+}
+
 /* Skill pill hover glow */
 .skill-pill:hover {
   box-shadow: 0 0 0 3px hsl(var(--primary) / 0.3);
