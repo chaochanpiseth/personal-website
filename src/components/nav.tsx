@@ -28,10 +28,8 @@ export function Nav() {
   };
 
   const navLinks = [
-    { name: 'About',    id: 'about' },
-    { name: 'Skills',   id: 'skills' },
-    { name: 'Projects', id: 'works' },
-    { name: 'Contact',  id: 'contact' },
+    { name: 'About',   id: 'about' },
+    { name: 'Contact', id: 'contact' },
   ];
 
   return (
